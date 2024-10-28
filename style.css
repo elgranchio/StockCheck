@@ -4,6 +4,23 @@ body {
 section {
     padding: 8vh 10vw;
 }
+button.sign-up-button {
+    background-color: grey;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 7px;
+    padding: 8px;
+    color: blanchedalmond;
+    
+    cursor: pointer;
+    
+    }
+    button:hover {
+        background-color: blanchedalmond;
+        color: red;
+        font-style: italic;
+        cursor: pointer;
+    }
 
 /* Header */
 
@@ -31,6 +48,14 @@ link {
     gap: 1.5em;
 
 }
+a:hover {
+    color: lightslategray;
+    font-style: italic;
+    font-size: 900;
+    cursor: pointer;
+    
+}
+
 /* section welcome*/
 #welcome {
     background-color: red;
@@ -116,8 +141,45 @@ link {
         text-align: center;
         font-weight: 900;
         margin-top: 5px;
-        font-size: 18px;
+        font-size: 24px;
     }
+    /*call to avtion section */
+
+    .call-to-action {
+        background-color: grey;
+        color: blanchedalmond;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0 5vw;
+        padding: 4vh 10px;
+        border-radius: 8px;
+    }
+    .call-to-action h2 {
+        font-size: 36px;
+        color: blanchedalmond;
+
+    }
+    .call-to-action button {
+
+        border: 1px solid blanchedalmond;
+        background-color: blanchedalmond;
+        color: red;
+    }
+    .call-to-action button:hover {
+        background-color: lightgrey;
+
+
+    }
+    /* footer section */
+    footer {
+        color: lightgrey;
+        padding: 1.5em;
+        text-align: center;
+        background-color: red;
+    }
+    
     
     
 
